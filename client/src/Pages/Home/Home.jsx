@@ -1,7 +1,10 @@
 import React from 'react'
+import Herosection from './herocomponents/Herosection'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Herosection/>
+    </div>
   )
 }

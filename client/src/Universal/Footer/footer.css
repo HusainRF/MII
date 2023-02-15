@@ -1,15 +1,15 @@
 .footer-box{
     background-color: black;
     color: aliceblue;
-    padding: 30px 20px 30px 40px;
+    padding: 30px 30px 30px 40px;
 }
 
 .footer-box h1{
     font-size: 65px;
 }
 .bootom-firstline{
-    display: flex;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: auto auto;
     padding-right: 50px;
 }
 .bootom-firstline h6{
@@ -18,6 +18,12 @@
 }
 .bootom-firstline img{
     justify-content: right;
+}
+
+.footer-pages{
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;    
 }
 
 .social-icons{
