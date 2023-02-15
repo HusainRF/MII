@@ -6,9 +6,12 @@ import Events from './Pages/Events/Events.jsx'
 import Contactus from './Pages/Contactus/Contactus.jsx'
 import Ourofferings from './Pages/Our-Offerings/OurOfferings.jsx'
 import { Route,Routes } from 'react-router-dom';
+import Header from './Universal/Header/Header';
+import Footer from './Universal/Footer/Footer';
 function App() {
   return (
     <div>
+      <Header/>
       <Routes>
         <Route exact path='/' element={<Home/> }/>
         <Route  path='/ourofferings' element={<Ourofferings/> }/>
@@ -16,6 +19,7 @@ function App() {
         <Route  path='/events' element={<Events/> }/>
         <Route  path='/contactus' element={<Contactus/> }/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
