@@ -5,9 +5,9 @@ export default function Events() {
     
     <div className='container effect'>
       <div className='d-flex justify-content-center align-items-center'>
-      <h1 className='text-center'>Upcoming Events</h1></div>
+      <h1 className='text-center effect'>Upcoming Events</h1></div>
       <div className=''>
-      <h1 className='text-center'>Past Events</h1>
+      <h1 className='text-center effect'>Past Events</h1>
       </div>
 
     </div>
