@@ -1,0 +1,15 @@
+.team1{
+    background-color: black;
+    color: aliceblue;
+}
+.our-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-person{
+    text-align: center;
+    border: 5px solid gray;
+    margin: 5px;
+    border-radius: 8px;
+}

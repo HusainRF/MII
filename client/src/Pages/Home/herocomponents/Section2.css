@@ -1,0 +1,17 @@
+.section2{
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;    
+   padding: 10px 200px 10px 200px;
+   text-align: center;
+}
+
+.section2 h4{
+   font-size: 25px;
+   color: white;
+}
+.section2 h1{
+   color: white;
+   font-size: 40px;
+}

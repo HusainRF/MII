@@ -1,0 +1,27 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 10px 200px 10px 200px;
+    text-align: center;
+ }
+ 
+ .section3 h4{
+    font-size: 25px;
+ }
+ .section3 h1{
+    font-size: 80px;
+ }
+ .icon-box{
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 200px;
+    padding: 30px 20px 10px 20px;
+    border-radius: 20px;
+ }
+ .focus{
+    display: flex;
+    flex-wrap: wrap;
+ }

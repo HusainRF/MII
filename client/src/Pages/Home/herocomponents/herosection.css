@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;    
-    padding: 10px 30px 10px 30px;
+    padding: 10px 200px 10px 200px;
     text-align: center;
 }
+
 .herosection h4{
     font-size: 25px;
+    color: gray;
+}
+.herosection h1{
+    font-size: 40px;
 }
