@@ -18,8 +18,8 @@ export default function EventComponent() {
                         <span>12:00 pm -12.45 pm</span></div>
                     <div className='d-flexalign-items-center'>
                         <i className="fa fa-calendar m-2 fa-2x" aria-hidden="true"></i>
-                        <span>12:00 pm -12.45 pm</span></div>
-                        <div>
+                        <span>12 January,2023</span></div>
+                        <div className='m-1'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut dapibus turpis a lacinia lacinia. Suspendisse potenti. In eget mauris vitae turpis porta consectetur quis et ante.</p>
                         </div>
                         <div className='d-flex justify-content-evenly'>
