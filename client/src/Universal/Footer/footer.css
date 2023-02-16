@@ -3,7 +3,6 @@
     color: aliceblue;
     padding: 30px 30px 30px 40px;
 }
-
 .footer-box h1{
     font-size: 65px;
 }
@@ -19,13 +18,11 @@
 .bootom-firstline img{
     justify-content: right;
 }
-
 .footer-pages{
     justify-content: end;
     display: flex;
     flex-wrap: wrap;    
 }
-
 .social-icons{
     display: flex;
     justify-content: end;
