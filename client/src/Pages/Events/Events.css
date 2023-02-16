@@ -87,7 +87,7 @@ opacity: .8;
     to {
       transform: translateX(0);
       opacity: 1;
-      text-decoration: underline;
+      /* text-decoration: underline; */
 
       
     }
@@ -95,10 +95,13 @@ opacity: .8;
   .temp {
     animation: slideIn 1s ease-out;
     color: #ff1e00;
-    text-decoration: underline;
+    /* text-decoration: black underline; */
     font-family: cursive;
     margin:2px;
     text-underline-offset: 8px;
+  }
+  .temp:hover{
+    text-decoration: underline;
   }
 
   
