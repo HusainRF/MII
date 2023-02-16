@@ -14,10 +14,10 @@ export default function Section3() {
           <div className="zl-feature-grid">
             <div className="zl-feature-grid-col -left">
               <div className="zl-feature-header">
-                <h2>Incubation</h2>
+                <h2>Collaborative</h2>
               </div>
               <div className="zl-feature-description">
-                <p>Ideation, technology, compliance</p>
+                {/* <p>Ideation, technology, compliance</p> */}
               </div>
             </div>
             <div className="zl-feature-grid-col -right">
@@ -38,10 +38,10 @@ export default function Section3() {
           <div className="zl-feature-grid">
             <div className="zl-feature-grid-col -left">
               <div className="zl-feature-header">
-                <h2>Acceleration</h2>
+                <h2>Inclusive</h2>
               </div>
               <div className="zl-feature-description">
-                <p>Community, communication, collaboration</p>
+                {/* <p>Community, communication, collaboration</p> */}
               </div>
             </div>
             <div className="zl-feature-grid-col -right">
@@ -62,12 +62,12 @@ export default function Section3() {
           <div className="zl-feature-grid">
             <div className="zl-feature-grid-col -left">
               <div className="zl-feature-header">
-                <h2>Adoption</h2>
+                <h2>Innovation</h2>
               </div>
               <div className="zl-feature-description">
-                <p>Long-term viability, use cases, <br />large-scale opportunities</p>
+                {/* <p>Long-term viability, use cases, <br />large-scale opportunities</p> */}
               </div>
-              <div className="zl-feature-action"><a className="zl-btn zl-btn_cta" href="/about/"><span>About us</span></a></div>
+              <div className="zl-feature-action"><a className="zl-btn zl-btn_cta" href="/aboutus"><span>About us</span></a></div>
             </div>
             <div className="zl-feature-grid-col -right">
               <div className="zl-feature-img">
