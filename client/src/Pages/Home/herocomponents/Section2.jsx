@@ -30,5 +30,6 @@ export default function Section2() {
         </div>
       </div>
     </div>
+    </section>
   )
 }
