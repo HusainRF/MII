@@ -6,9 +6,10 @@
     text-align: center;
 }
 
-.herosection h4{
+.herosection p{
     font-size: 25px;
     color: gray;
+    text-align: justify;
 }
 .herosection h1{
     font-size: 40px;
