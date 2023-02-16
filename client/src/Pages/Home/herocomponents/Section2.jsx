@@ -1,5 +1,5 @@
-import React from 'react'
-import './Section2.css'
+import React from "react";
+import "./Section2.css";
 export default function Section2() {
   return (
     <section className="zl-brief">
@@ -30,6 +30,5 @@ export default function Section2() {
         </div>
       </div>
     </div>
-  </section>
   )
 }

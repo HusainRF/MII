@@ -1,15 +1,15 @@
 .section2{
    background-color: black;
-   display: flex;
-   flex-direction: column;
-   align-items: center;    
    padding: 10px 200px 10px 200px;
-   text-align: center;
+   /* display: flex; */
+   /* flex-direction: column; */
+   /* align-items: center; */
+   /* text-align: center; */
 }
-
-.section2 h4{
-   font-size: 25px;
+.section2 p{
+   font-size: 30px;
    color: white;
+   /* text-align: justify; */
 }
 .section2 h1{
    color: white;

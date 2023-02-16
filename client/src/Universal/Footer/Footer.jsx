@@ -1,6 +1,6 @@
-import React from 'react'
-import Copyright from './Copyright'
-import './footer.css'
+import React from "react";
+import Copyright from "./Copyright";
+import "./footer.css";
 export default function Footer() {
   return (
     // <div className='footer-box'>
@@ -35,41 +35,20 @@ export default function Footer() {
               <h2>Want to know more?</h2>
               <a href="/contact/">Get in touch</a>
             </div>
-            <div className="zl-outro-footer">
-              <div className="zl-outro-grid">
-                <div className="zl-outro-grid-col -left">
-                  <div className="zl-outro-logo"><img src="/assets/img/logo-i.png" srcSet="/assets/img/logo-i@2x.png 2x" alt="" /></div>
-                </div>
-                <div className="zl-outro-grid-col -right">
-                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/privacy/"><span>Privacy Policy</span></a><a className="zl-outro-nav" href="/about/"><span>About Us</span></a><a className="zl-outro-nav" href="/services/"><span>Services</span></a><a className="zl-outro-nav" href="/blog/"><span>Blog</span></a></div>
-                  <div className="zl-outro-socials">
-                    <a className="zl-outro-social -instagram" href="https://unizen-io.medium.com/" target="_blank" rel="noopener" aria-label="Medium">
-                      <span>
-                        <svg className="zl-svgsprite -medium">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#medium" />
-                        </svg>
-                      </span>
-                    </a>
-                    <a className="zl-outro-social -facebook" href="https://t.me/unizen_io" target="_blank" rel="noopener" aria-label="Telegram">
-                      <span>
-                        <svg className="zl-svgsprite -telegram">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#telegram" />
-                        </svg>
-                      </span>
-                    </a>
-                    <a className="zl-outro-social -twitter" href="https://twitter.com/unizen_io" target="_blank" rel="noopener" aria-label="Twitter">
-                      <span>
-                        <svg className="zl-svgsprite -twitter">
-                          <use xlinkHref="/assets/img/sprites/svgsprites.svg#twitter" />
-                        </svg>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className='footer-pages'>
+            <h6>Home</h6>
+            <h6>Our Offerings</h6>
+            <h6>Blogs</h6>
+            <h6>Events</h6>
             </div>
-          </div>
+            </div>
+            <div className='social-icons'>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            </div>
         </div>
-      </section>
+        <Copyright/>
+    </div>
   )
 }
