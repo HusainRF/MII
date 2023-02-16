@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="zl-outro-container">
             <div className="zl-outro-header">
               <h2>Want to know more?</h2>
-              <a href="/contact/">Get in touch</a>
+              <a href="/contactus">Get in touch</a>
             </div>
             <div className="zl-outro-footer">
               <div className="zl-outro-grid">
@@ -41,7 +41,10 @@ export default function Footer() {
                   <div className="zl-outro-logo"><img src="/assets/img/logo-i.png" srcSet="/assets/img/logo-i@2x.png 2x" alt="" /></div>
                 </div>
                 <div className="zl-outro-grid-col -right">
-                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/privacy/"><span>Privacy Policy</span></a><a className="zl-outro-nav" href="/about/"><span>About Us</span></a><a className="zl-outro-nav" href="/services/"><span>Services</span></a><a className="zl-outro-nav" href="/blog/"><span>Blog</span></a></div>
+                  <div className="zl-outro-navs"><a className="zl-outro-nav" href="/"><span>Home</span></a>
+                  <a className="zl-outro-nav" href="/ourofferings"><span>Services</span></a>
+                  <a className="zl-outro-nav" href="/aboutus"><span>About Us</span></a>
+                  <a className="zl-outro-nav" href="/blogs"><span>Blog</span></a></div>
                   <div className="zl-outro-socials">
                     <a className="zl-outro-social -instagram" href="https://unizen-io.medium.com/" target="_blank" rel="noopener" aria-label="Medium">
                       <span>

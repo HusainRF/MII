@@ -8,7 +8,7 @@ export default function Header() {
           <a href="/"><img src="./images/medicaps.png" alt="" width={"80px"} /></a>
         </div>
         <div className="item1">
-          <a href="/ourofferings">Our Offerings</a>
+          <a href="/ourofferings">Services</a>
           <a href="/events">Events</a>
           <a href="/blogs">Blogs</a>
         </div>
