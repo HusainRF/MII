@@ -1,29 +1,103 @@
 .effect {
-  color: hsl(0, 0%, 28%);
-  font-size: 50px;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 7px;
-  cursor: pointer;
-  text-transform: uppercase;
+    color: hsl(0, 0%, 28%);
+
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .effect {
-  padding: 64px;
-  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
+    /* padding: 64px; */
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s infinite linear;
 }
 
 @keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 600px;
-  }
-  100% {
-    background-position: 600px;
-  }
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 600px;
+    }
+
+    100% {
+        background-position: 600px;
+    }
 }
+
+
+.slide-fwd-top {
+
+    -webkit-animation: slide-fwd-top .45s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-fwd-top .45s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes slide-fwd-top {
+    0% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px) translateY(-100px);
+        transform: translateZ(160px) translateY(-100px)
+    }
+}
+
+@keyframes slide-fwd-top {
+    0% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px) translateY(-100px);
+        transform: translateZ(160px) translateY(-100px)
+    }
+}
+
+.imgevent {
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+}
+.absolute{
+position: absolute;
+left: 1%;
+bottom:1%;
+width: 70%;
+height: 95%;
+background-color: white;
+opacity: .8;
+border: 3px solid #f44818;}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-50%);
+      opacity: 0;
+      text-decoration: none;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+      text-decoration: underline;
+
+      
+    }
+  }
+  .temp {
+    animation: slideIn 1s ease-out;
+    color:rgb(236, 7, 45);
+    text-decoration: underline;
+  }
+
+  
+  
+  
+  
+  

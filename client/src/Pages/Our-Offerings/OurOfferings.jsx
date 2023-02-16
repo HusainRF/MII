@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Services from './Services.jsx'
 export default function OurOfferings() {
   return (
     <div>
@@ -23,6 +23,7 @@ export default function OurOfferings() {
           </div>
         </div>
       </div>
+      <Services/>
     </div>
   )
 }
