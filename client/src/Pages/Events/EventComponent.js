@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Events.css'
 export default function EventComponent() {
     return (
@@ -23,7 +24,7 @@ export default function EventComponent() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut dapibus turpis a lacinia lacinia. Suspendisse potenti. In eget mauris vitae turpis porta consectetur quis et ante.</p>
                         </div>
                         <div className='d-flex justify-content-evenly'>
-                            <p className='btn btn-primary'>know More</p>
+                            <NavLink to ='./knowmore' ><p className='btn btn-primary' >know More</p></NavLink>
                             <p className='btn btn-primary'>Register</p>
                         </div>
 

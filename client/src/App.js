@@ -8,6 +8,7 @@ import Ourofferings from './Pages/Our-Offerings/OurOfferings.jsx'
 import { Route,Routes } from 'react-router-dom';
 import Header from './Universal/Header/Header';
 import Footer from './Universal/Footer/Footer';
+import Knowmore from './Pages/Events/Knowmore';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
         <Route  path='/blogs' element={<Blogs/> }/>
         <Route  path='/events' element={<Events/> }/>
         <Route  path='/contactus' element={<Contactus/> }/>
+        <Route path='/events/knowmore' element={<Knowmore/>}/>
       </Routes>
       <Footer/>
     </div>
