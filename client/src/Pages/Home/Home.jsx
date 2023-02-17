@@ -6,6 +6,7 @@ import OurTeam from './herocomponents/OurTeam.jsx'
 // import OurAdvisor from './OurAdvisor'
 import Advisors from './herocomponents/Advisors'
 import Testimonials from './Testimonials'
+import Diamond from './herocomponents/Diamond/Diamond.jsx'
 export default function Home() {
   return (
     <div>
@@ -14,7 +15,9 @@ export default function Home() {
       <Section3/>
       <OurTeam/>
       {/* <OurAdvisor/> */}
-      <Advisors/>
+      
+    <Advisors/>
+    {/* <Diamond/> */}
       <Testimonials/>
     </div>
   )
