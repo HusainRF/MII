@@ -13,47 +13,27 @@ export default function Section3() {
       />
       <div className="feature-container">
         <div className="feature-section">
-          <div className="feature-detail">
-            <div className="feature-contain blue">
-              <h1>Collaborative</h1>
-            </div>
-            <div className="feature-img">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ruby-Diamond-88757.gif"
-                alt=""
-                srcset=""
-              />
-            </div>
+          <div className="feature-contain blue">
+            <h1>Collaborative</h1>
           </div>
-          <div className="feature-detail">
-            <div className="feature-contain purple">
-              <h1>Inclusive</h1>
-            </div>
-            <div className="feature-img">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ruby-Diamond-88757.gif"
-                alt=""
-                srcset=""
-              />
-            </div>
+          <div className="feature-contain purple">
+            <h1>Inclusive</h1>
           </div>
-          <div className="feature-detail">
-            <div className="feature-contain green">
-              <h1>Innovation</h1>
-            </div>
-            <div className="feature-img">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ruby-Diamond-88757.gif"
-                alt=""
-                srcset=""
-              />
-            </div>
+          <div className="feature-contain green">
+            <h1>Innovation</h1>
           </div>
-            <div className="feature-action">
-              <a className="zl-btn zl-btn_cta" href="/aboutus">
-                <span>About us</span>
-              </a>
-            </div>
+          {/* <div className="feature-action">
+            <a className="zl-btn zl-btn_cta" href="/aboutus">
+              <span>About us</span>
+            </a>
+          </div> */}
+        </div>
+        <div className="feature-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Ruby-Diamond-88757.gif"
+            alt=""
+            srcset=""
+          />
         </div>
       </div>
       {/* <div className="feature-section">

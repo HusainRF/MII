@@ -28,31 +28,25 @@
  .feature-container{
    display: flex;
    /* flex-direction: column; */
+   height: 100vh;
    justify-content: center;
    width: 100%;
-   /* border: 5px solid red; */
+   border: 5px solid red;
  }
  .feature-section{
    display: flex;
    flex-direction: column;
-   /* justify-content: center; */
-   width: 80%;
-   /* border: 5px solid blue; */
- }
- .feature-detail{
-   display: flex;
+   height: 100%;
    justify-content: center;
-   width: 100%;
-   height: 100vh;
-   /* border: 5px solid purple; */
-   padding: 60px 0;
- }
- .feature-contain{
-   width: 50%;
-   display: flex;
-   align-items: center;
-   padding: 0 20px;
-   /* justify-content: center; */
+   width: 80%;
+   border: 5px solid blue;
+   overflow-y: scroll;
+   white-space: nowrap;
+}
+.feature-contain{
+   border: 5px solid purple;
+   height: 1000px !important;
+   /* padding: 1000px 0; */
  }
  .feature-contain h1{
    font-size: 100px;
