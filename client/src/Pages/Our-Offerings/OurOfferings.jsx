@@ -1,4 +1,6 @@
 import React from 'react'
+import Consulting from './Consulting.jsx'
+import Incubation from './Incubation.jsx'
 import Services from './Services.jsx'
 export default function OurOfferings() {
   return (
@@ -11,10 +13,10 @@ export default function OurOfferings() {
             </video>
           </div>
           <div className="zl-hero-header -rb">
-            <h1 style={{willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>An incubator <br />for wide adoption</h1>
+            <h1 style={{willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>MII Foundation offers two main services</h1>
           </div>
           <div className="zl-hero-description">
-            <p style={{}}>We nurture decentralized projects that drastically improve existing systems</p>
+            <p style={{}}> Incubation and Consulting - to help start-ups grow and succeed.</p>
           </div>
           <div className="zl-hero-down" style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>
             <svg className="zl-svgsprite -arrow-down-o">
@@ -23,7 +25,12 @@ export default function OurOfferings() {
           </div>
         </div>
       </div>
-      <Services/>
+      {/* <Services/> */}
+      
+      <Incubation/>
+      <Consulting/>
+<hr/>
+      <h1 className='container mx-4'style={{padding:"30px"}}>"Choose MII Foundation to help bring your entrepreneurial vision to life. Get the support you need to grow your business and succeed."</h1>
     </div>
   )
 }

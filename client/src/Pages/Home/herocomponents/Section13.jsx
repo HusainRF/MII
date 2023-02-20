@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Diamond from './Diamond/Diamond.jsx'
 export default function Section13() {
   return (
     <div>      
@@ -14,9 +14,10 @@ export default function Section13() {
               </div>
               <div className="zl-feature-description">
                 {/* <p>Community, communication, collaboration</p> */}
+              {/* <Diamond/> */}
               </div>
             </div>
-            <div className="zl-feature-grid-col -right">
+            {/* <div className="zl-feature-grid-col -right">
               <div className="zl-feature-img">
                 <picture>
                   <source
@@ -31,7 +32,7 @@ export default function Section13() {
                   />
                 </picture>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -45,10 +46,11 @@ export default function Section13() {
                 <h2>Inclusive</h2>
               </div>
               <div className="zl-feature-description">
+                {/* <Diamond/> */}
                 {/* <p>Community, communication, collaboration</p> */}
               </div>
             </div>
-            <div className="zl-feature-grid-col -right">
+            {/* <div className="zl-feature-grid-col -right">
               <div className="zl-feature-img">
                 <picture>
                   <source
@@ -63,7 +65,7 @@ export default function Section13() {
                   />
                 </picture>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -77,6 +79,7 @@ export default function Section13() {
                 <h2>Innovation</h2>
               </div>
               <div className="zl-feature-description">
+                {/* <Diamond/> */}
                 {/* <p>Long-term viability, use cases, <br />large-scale opportunities</p> */}
               </div>
               <div className="zl-feature-action">
@@ -85,7 +88,7 @@ export default function Section13() {
                 </a>
               </div>
             </div>
-            <div className="zl-feature-grid-col -right">
+            {/* <div className="zl-feature-grid-col -right">
               <div className="zl-feature-img">
                 <picture>
                   <source
@@ -99,7 +102,7 @@ export default function Section13() {
                   />
                 </picture>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
