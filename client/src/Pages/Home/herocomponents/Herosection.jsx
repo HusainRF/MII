@@ -3,9 +3,9 @@ export default function Herosection() {
   return (
     <div className="zl-hero-content">
       <div className="zl-hero-container">
-        <div className="zl-hero-video -top" style={{ opacity: 1 }}>
+        <div className="zl-hero-video -top" style={{ opacity: 1}}>
           <div className="zl-hero-logo">
-            <h2 style={{marginTop:"30%"}}>MII</h2>
+            <h2 style={{marginTop:"35%"}}>MII</h2>
             <h2>Foundation</h2>
             {/* <img width={"20px"} height={"30px"} src="./images/medicaps.png" alt="ZenX Labs"  /> */}
           </div>
