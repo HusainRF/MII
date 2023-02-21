@@ -16,7 +16,7 @@ export default function SingleTeaMember(props) {
   <div onClick={changeaccordion} className={accordion} style={{translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', willChange: 'auto'}}>
             <div className="zl-staff-head">
               <div className="zl-staff-info">
-                <div className="zl-staff-item-avatar"><img src={props.img} srcSet="/assets/img/staff/1@2x.jpg 2x" alt="" /></div>
+                <div className="zl-staff-item-avatar"><img src={props.img} alt="" /></div>
                 <div className="zl-staff-item-name">
                   <h4>{props.name}</h4>
                   <p>{props.designation}</p>
