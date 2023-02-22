@@ -5,8 +5,8 @@ export default function Incubation() {
   return (
     <div className='zl-staff -inverse '>
     <div className='container' style={{fontSize:"160%"}}>
-       <h1  style={{fontSize:"60px",paddingTop:"60px"}} >Incubation</h1>
-      <div   style={{display:"flex", flexWrap:"wrap"}}>
+       <h1  style={{fontSize:"50px",paddingTop:"60px"}} >Incubation</h1>
+      <div  style={{display:"flex", flexWrap:"wrap"}}>
         <SingleIncubation title={"Mentoring"} content={"Receive guidance and support from experienced professionals."}/>
         <SingleIncubation title={"Seed-Fund Investment"} content={"Get access to seed-fund investment to help grow your business."}/>
         <SingleIncubation title={"Access to Eventsring"} content={"Attend events and network with other entrepreneurs."}/>

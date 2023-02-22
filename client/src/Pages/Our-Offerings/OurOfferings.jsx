@@ -30,7 +30,7 @@ export default function OurOfferings() {
       <Incubation/>
       <Consulting/>
 <hr/>
-      <h1 className='container mx-4'style={{padding:"30px"}}>"Choose MII Foundation to help bring your entrepreneurial vision to life. Get the support you need to grow your business and succeed."</h1>
+      <h1 style={{padding:"30px",textAlign:"center"}}>"Choose MII Foundation to help bring your entrepreneurial vision to life. Get the support you need to grow your business and succeed."</h1>
     </div>
   )
 }
