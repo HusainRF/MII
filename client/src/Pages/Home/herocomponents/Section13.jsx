@@ -12,10 +12,10 @@ export default function Section13() {
               <div className="zl-feature-header">
                 <h2>Collaborative</h2>
               </div>
-              <div className="zl-feature-description">
-                {/* <p>Community, communication, collaboration</p> */}
-              {/* <Diamond/> */}
-              </div>
+              {/* <div className="zl-feature-description">
+                <p>Community, communication, collaboration</p>
+              <Diamond/>
+              </div> */}
             </div>
             {/* <div className="zl-feature-grid-col -right">
               <div className="zl-feature-img">
