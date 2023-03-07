@@ -13,10 +13,10 @@ export default function Home() {
       <Herosection/>
       <Section2/>
       <Section3/>
-      <OurTeam/>
       {/* <OurAdvisor/> */}
       
     <Advisors/>
+      <OurTeam/>
     {/* <Diamond/> */}
       <Testimonials/>
     </div>

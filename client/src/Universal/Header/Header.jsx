@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
 export default function Header() {
-    const [display, setDisplay] = useState(window.innerWidth > 1024? true : false);
+    // const [display, setDisplay] = useState(window.innerWidth > 1024? true : false);
   return (
     <div className="nav-header">
       <div className="header-bar">
@@ -10,27 +10,35 @@ export default function Header() {
           <NavLink to="/">
             <img src="./images/medicaps.png" alt="" width={"80px"} />
           </NavLink>
-          {display ? (
-            <p className="cross" onClick={() => setDisplay(!display)}>
-              X
-            </p>
-          ) : (
-            <div className="burger" onClick={() => setDisplay(!display)}>
-              <div className="line"></div>
-              <div className="line"></div>
-            </div>
-          )}
         </div>
-        {display ? <div className="nav-items">
-          <div className="item1">
-            <NavLink to="/ourofferings">Services</NavLink>
-            <NavLink to="/events">Events</NavLink>
-            <NavLink to="/blogs">Blogs</NavLink>
-          </div>
-          <div className="item2">
-            <NavLink to="/contactus">Contact</NavLink>
-          </div>
-        </div>:<></>}
+        <ul className="nav-items">
+          <li className="nav-list list-active1">
+            <NavLink>About</NavLink>
+              <ul className="nav-child1">
+                <li className="nav-child-list1">About MII</li>
+                <li className="nav-child-list1">Identity and Cultural</li>
+                <li className="nav-child-list1">Team</li>
+                <li className="nav-child-list1">Testimonials</li>
+              </ul>
+          </li>
+          <li className="nav-list list-active2">
+            <NavLink>Our offerings</NavLink>
+              <ul className="nav-child2">
+                <li className="nav-child-list2">Services</li>
+                <li className="nav-child-list2">Process</li>
+                <li className="nav-child-list2">Contact Us</li>
+              </ul>
+          </li>
+          <li className="nav-list">
+            <NavLink>Blog</NavLink>
+          </li>
+          <li className="nav-list">
+            <NavLink>Events</NavLink>
+          </li>
+          <li className="nav-list">
+            <NavLink>Contact us</NavLink>
+          </li>
+        </ul>
       </div>
     </div>
   );
