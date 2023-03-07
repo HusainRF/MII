@@ -2,13 +2,10 @@ import React from "react";
 import './herosection.css'
 export default function Herosection() {
   return (
-    <div className="herosection">
+    <div className="herosection" id="hero">
 
       <div className="logovidcon">
-        <div className="logo1">
-        <h1 className="titleofmmii">Unlock your business potential</h1>
-
-        </div>
+        
         <div className="logo">
         <h1>MII</h1>
         <h1>Foundation</h1>
@@ -16,8 +13,12 @@ export default function Herosection() {
         <video  id="vid" preload="auto" autoPlay loop muted playsInline>
           <source src="./images/1.mp4" type="video/mp4" />
         </video>
+        
       </div>
+      <div className="logo1">
+        <h1 className="titleofmmii">Unlock your business potential</h1>
 
+        </div>
 
       {/* <div className="zl-hero-container">
         <div className="zl-hero-video -top" style={{ opacity: 1}}>
