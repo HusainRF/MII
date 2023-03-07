@@ -4,12 +4,12 @@ import './Team.css'
 export default function OurTeam() {
   return (
 
-    <section className="zl-staff -inverse">
+    <section className="zl-staff -inverse" style={{background:"white"}}>
     <div className="zl-staff-content">
       <div className="zl-staff-container">
         <div className="zl-staff-header">
           <h2>
-            <div style={{position: 'relative', display: 'inline-block', willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>Our Team</div>
+            <div style={{position: 'relative', display: 'inline-block', willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', color:'black'}}>Our Team</div>
           </h2>
         </div>
 
