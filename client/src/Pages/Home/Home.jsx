@@ -10,7 +10,7 @@ import Testimonials from './Testimonials'
 import Diamond from './herocomponents/Diamond/Diamond.jsx'
 export default function Home() {
   return (
-    <div>
+    <div st>
       <Herosection/>
       {/* <Section2/> */}
       {/* <Section3/> */}

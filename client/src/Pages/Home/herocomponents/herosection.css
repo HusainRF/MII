@@ -1,16 +1,33 @@
 .herosection{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logovidcon{
+   display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#vid{
+    width: 50%;
+}
+.logo,.logo1{
+    position:absolute;
+}
+.logo1{
+    top: 0%;
+}
+.logo{
+    display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 10px 200px 10px 200px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
-.herosection p{
-    font-size: 25px;
-    color: gray;
-    text-align: justify;
+.logo1 h1{
+    font-weight: bold;
 }
-.herosection h1{
-    font-size: 40px;
+.logo h1{
+    
+    font-size: 4em;
 }
