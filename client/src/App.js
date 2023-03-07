@@ -9,6 +9,7 @@ import { Route,Routes } from 'react-router-dom';
 import Header from './Universal/Header/Header';
 import Footer from './Universal/Footer/Footer';
 import Knowmore from './Pages/Events/Knowmore';
+import About from './Pages/About/About';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
         <Route  path='/ourofferings' element={<Ourofferings/> }/>
         <Route  path='/blogs' element={<Blogs/> }/>
         <Route  path='/events' element={<Events/> }/>
+        <Route  path='/about' element={<About/> }/>
         <Route  path='/contactus' element={<Contactus/> }/>
         <Route path='/events/knowmore' element={<Knowmore/>}/>
       </Routes>
