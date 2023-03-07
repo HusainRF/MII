@@ -9,7 +9,7 @@ export default function OurTeam() {
       <div className="zl-staff-container">
         <div className="zl-staff-header">
           <h2>
-            <div style={{position: 'relative', display: 'inline-block', willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)'}}>Our Team</div>
+            <div style={{position: 'relative', display: 'inline-block', willChange: 'auto', translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', color:'black'}}>Our Team</div>
           </h2>
         </div>
 
