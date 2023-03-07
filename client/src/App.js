@@ -10,6 +10,7 @@ import Header from './Universal/Header/Header';
 import Footer from './Universal/Footer/Footer';
 import Knowmore from './Pages/Events/Knowmore';
 import About from './Pages/About/About';
+import SingleBlog from './Pages/Blog/SingleBlog';
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route  path='/about' element={<About/> }/>
         <Route  path='/contactus' element={<Contactus/> }/>
         <Route path='/events/knowmore' element={<Knowmore/>}/>
+        <Route path='/singleblog' element={<SingleBlog/>}/>
       </Routes>
       <Footer/>
     </div>
