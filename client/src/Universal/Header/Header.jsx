@@ -25,6 +25,7 @@ export default function Header() {
           <div className="item1">
             <NavLink to="/ourofferings">Services</NavLink>
             <NavLink to="/events">Events</NavLink>
+            <NavLink to="/about">About</NavLink>
             <NavLink to="/blogs">Blogs</NavLink>
           </div>
           <div className="item2">
