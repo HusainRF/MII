@@ -28,6 +28,7 @@ export default function SingleAdvisor(props) {
                     scale: "none",
                     opacity: 1,
                     transform: "translate(0px, 0px)",
+                    // color:'white'
                   }}
                 >
                   Advisors

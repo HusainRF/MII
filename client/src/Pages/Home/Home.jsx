@@ -19,6 +19,7 @@ export default function Home() {
       {/* <OurAdvisor/> */}
       
     <Advisors/>
+      <OurTeam/>
     {/* <Diamond/> */}
       <Testimonials/>
     </div>
