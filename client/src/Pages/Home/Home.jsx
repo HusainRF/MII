@@ -8,11 +8,12 @@ import Sectionfinal from './herocomponents/sectionfinal'
 import Advisors from './herocomponents/Advisors'
 import Testimonials from './Testimonials'
 import Diamond from './herocomponents/Diamond/Diamond.jsx'
+import Sponsors from './Sponsors'
 export default function Home() {
   return (
     <div st>
       <Herosection/>
-      {/* <Section2/> */}
+      <Section2/>
       {/* <Section3/> */}
       <Sectionfinal/>
       <OurTeam/>
@@ -21,6 +22,7 @@ export default function Home() {
     <Advisors/>
       {/* <OurTeam/> */}
     {/* <Diamond/> */}
+    <Sponsors/>
       <Testimonials/>
     </div>
   )

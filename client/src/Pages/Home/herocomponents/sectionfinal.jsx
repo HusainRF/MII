@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './SectionFinal.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Sectionfinal() {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid' >
             <div className=' d-flex row text-center align-items-center  '>
                 <div className='col-md-8 col-10 d-flex row align-items-center' style={{ height: "80vh" }}>
 
