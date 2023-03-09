@@ -18,7 +18,7 @@ export default function Home() {
       <OurTeam/>
       {/* <OurAdvisor/> */}
       
-    <Advisors/>
+    <Advisors/>              
       <OurTeam/>
     {/* <Diamond/> */}
       <Testimonials/>
