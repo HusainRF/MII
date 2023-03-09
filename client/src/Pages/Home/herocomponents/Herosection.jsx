@@ -13,12 +13,13 @@ export default function Herosection() {
         <video  id="vid" preload="auto" autoPlay loop muted playsInline>
           <source src="./images/1.mp4" type="video/mp4" />
         </video>
-        
-      </div>
-      <div className="logo1">
-        <h1 className="titleofmmii">Unlock your business potential</h1>
+
+        <div className="logo1">
+          <h1 className="titleofmmii">Unlock your business potential</h1>
 
         </div>
+      </div>
+
 
       {/* <div className="zl-hero-container">
         <div className="zl-hero-video -top" style={{ opacity: 1}}>

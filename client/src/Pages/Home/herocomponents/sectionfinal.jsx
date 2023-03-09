@@ -19,7 +19,7 @@ export default function Sectionfinal() {
                             fontSize: "24px",
                             lineHeight: "35px",
                             opacity: ".5"
-                        }}>Ideation, technology, compliance</p></div>
+                        }}>Ideation. Technology. Compliance.</p></div>
 
 
 
