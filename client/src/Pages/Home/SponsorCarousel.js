@@ -22,13 +22,13 @@ export default function SponsorCarousel() {
             }}>
                 <Carousel breakPoints={breakPoints}>
                     <Item><img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Two</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Three</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Four</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Five</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Six</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Seven</Item>
-                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/>Eight</Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
+                    <Item> <img src="/images/partners.png" style={{width:"100%",objectFit:"contain",height:"100%"}}/></Item>
                 </Carousel>
             </div>
         </div>
