@@ -16,7 +16,7 @@ export default function SingleAdvisor(props) {
       <section className="zl-staff">
         <div className="zl-staff-content">
           <div className="zl-staff-container">
-            <div className="zl-staff-header">
+            {/* <div className="zl-staff-header">
               <h2>
                 <div
                   style={{
@@ -34,7 +34,7 @@ export default function SingleAdvisor(props) {
                   Advisors
                 </div>
               </h2>
-            </div>
+            </div> */}
             <div className="zl-staff-items">
               <div
                 className={accordion}
