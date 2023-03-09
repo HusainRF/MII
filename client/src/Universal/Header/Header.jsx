@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import {Link} from "react-scroll"
 import "./header.css";
 export default function Header() {
-    // const [display, setDisplay] = useState(window.innerWidth > 1024? true : false);
+    const [display, setDisplay] = useState(window.innerWidth > 1024? true : false);
   return (
     <div className="nav-header">
       <div className="header-bar">
