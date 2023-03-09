@@ -24,7 +24,8 @@ export default function Sponsors() {
 
             {/* Read More button */}
             <div className=' ms-4'>
-                <p style={{ fontSize: "30px", fontWeight: "800" ,color:"white"}}>ZenX is a full-scale incubator that prepares decentralized innovation for global use. To prepare the project for wide adoption, we assure full compliance, set up collaborations with global financial institutions, investment funds, governments. ZenX is a space where highly practical ideas that could potentially impact millions (or better, billions) receive the support they deserve.</p>
+                <p style={{ fontSize: "30px", fontWeight: "800" ,color:"white"}}>Medi-Caps has been a brand name in the arena of technical education. Since its inception in July 2000, Medi-Caps has consistently aimed at creating an ideal ambiance for budding technocrats and managers; and helping them to grow like true professionals. With its highly qualified faculty there seems an optimal blend of academic brilliance and industry exposure, supplemented by highly specialized visiting faculty and industry experts, senior professionals from various segments of different industries and business houses. It was time now to spread wings and move out for more exposure and widening of the periphery.
+Hence the foundation of Medi-Caps University has been laid down. With a strong foundation of the Group since 15 years, Medi-Caps University wishes to maintain the same objective of imparting quality education and producing sound professionals for the benefit of the society at large..</p>
             </div>
             <div >
                 <NavLink to='/ourofferings' className='abc'><button className='pqr'>Read More</button></NavLink>
