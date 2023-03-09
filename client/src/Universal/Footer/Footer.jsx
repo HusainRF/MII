@@ -45,7 +45,7 @@ export default function Footer() {
                   <a className="zl-outro-nav" href="/ourofferings"><span>About Us</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>Services</span></a>
                   <a className="zl-outro-nav" href="/ourofferings"><span>MII Community</span></a>
-                  <a className="zl-outro-nav" href="/ourofferings"><span>SocialMedia Icons</span></a>
+                  {/* <a className="zl-outro-nav" href="/ourofferings"><span>SocialMedia Icons</span></a> */}
                   <a className="zl-outro-nav" href="/ourofferings"><span>Address</span></a>
                   {/* <a className="zl-outro-nav" href="/blogs"><span>Blogs</span></a>
                   <a className="zl-outro-nav" href="/contactus"><span>Contact Us</span></a> */}

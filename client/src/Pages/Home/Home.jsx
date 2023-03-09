@@ -16,10 +16,10 @@ export default function Home() {
       <Section2/>
       {/* <Section3/> */}
       <Sectionfinal/>
-      <OurTeam/>
+      {/* <OurTeam/> */}
       {/* <OurAdvisor/> */}
       
-    <Advisors/>
+    {/* <Advisors/> */}
       {/* <OurTeam/> */}
     {/* <Diamond/> */}
     <Sponsors/>

@@ -14,6 +14,7 @@
    background-color: black;
    color: aliceblue;
    flex-direction: column;
+   margin-top: 30px;
 }
 .someth{
    background-color: rgb(204, 204, 204);

@@ -25,7 +25,8 @@ export default function Sectionfinal() {
 
                 </div>
                 <div className='col-md-4 col -10'>
-                    <img src='	https://www.zenxlabs.io/assets/img/feature/2.png?1' />
+                    {/* <img src='	https://www.zenxlabs.io/assets/img/feature/2.png?1'  /> */}
+                    <img src="https://www.zenxlabs.io/assets/img/feature/2.png?1" alt="hiii1" />
                 </div>
 
             </div>
@@ -49,7 +50,7 @@ export default function Sectionfinal() {
 
                 </div>
                 <div className='col-md-4 col -10'>
-                    <img src='https://www.zenxlabs.io/assets/img/feature/1.png?1' />
+                    <img src='https://www.zenxlabs.io/assets/img/feature/1.png?1' alt="hiii2" />
                 </div>
 
             </div>
@@ -72,7 +73,7 @@ export default function Sectionfinal() {
                     </div>
                 </div>
                 <div className='col-md-4 col -10'>
-                    <img src='	https://www.zenxlabs.io/assets/img/feature/3.png?1' />
+                    <img src='	https://www.zenxlabs.io/assets/img/feature/3.png?1' alt="hiii3"/>
                 </div>
 
 
