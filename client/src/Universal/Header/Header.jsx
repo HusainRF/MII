@@ -9,12 +9,12 @@ export default function Header() {
       <div className="header-bar">
         <div className="header-img-container">
           <NavLink to="/">
-            <img src="./images/medicaps.png" alt="" width={"80px"} />
+            <img src="./images/medicaps.png"  alt="" width={"80px"} />
           </NavLink>
         </div>
         <ul className="nav-items">
           <li className="nav-list list-active1">
-            <NavLink to="/">About</NavLink>
+            <NavLink to="/about" >About</NavLink>
               <ul className="nav-child1">
                 {/* <Link to="hero" spy={true} smooth={true} offset={50} duration={500} className="nav-child-list1">About MII</Link>
                 <Link to="hero" spy={true} smooth={true} offset={50} duration={500} className="nav-child-list1">Identity and Cultural</Link>
@@ -27,7 +27,7 @@ export default function Header() {
               </ul>
           </li>
           <li className="nav-list list-active2">
-            <NavLink>Our offerings</NavLink>
+            <NavLink to="/ourofferings" >Our offerings</NavLink>
               <ul className="nav-child2">
                 <li className="nav-child-list2">Services</li>
                 <li className="nav-child-list2">Process</li>
@@ -35,13 +35,13 @@ export default function Header() {
               </ul>
           </li>
           <li className="nav-list">
-            <NavLink>Blog</NavLink>
+            <NavLink to="/blogs">Blog</NavLink>
           </li>
           <li className="nav-list">
-            <NavLink>Events</NavLink>
+            <NavLink to="/events">Events</NavLink>
           </li>
           <li className="nav-list">
-            <NavLink>Contact us</NavLink>
+            <NavLink to="/contactus">Contact us</NavLink>
           </li>
         </ul>
       </div>
