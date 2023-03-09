@@ -10,6 +10,7 @@ import Testimonials from './Testimonials'
 import Diamond from './herocomponents/Diamond/Diamond.jsx'
 import Sponsors from './Sponsors'
 import AnimationSection from './Animation/AnimationSection'
+import Test from './Test'
 export default function Home() {
   return (
     <div st>
@@ -25,6 +26,7 @@ export default function Home() {
     {/* <Diamond/> */}
     <Sponsors/>
       <Testimonials/>
+      <Test/>
     </div>
   )
 }

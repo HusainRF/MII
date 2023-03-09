@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Sponsors() {
     return (
-        <div className='container-fluid p-5' style={{ backgroundColor: "black" }}>
+        <div className='container-fluid p-5' style={{ backgroundColor: "#0F0F0F" }}>
 
             <div className='container ms-4 '  >
                 {/* Content 1 */}

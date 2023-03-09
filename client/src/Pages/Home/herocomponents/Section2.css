@@ -12,7 +12,7 @@
 }
 .aboutus{
    display: flex;
-   background-color: black;
+   background-color: #0f0f0f;
    color: aliceblue;
    flex-direction: column;
    margin-top: 30px;
@@ -25,7 +25,7 @@
 .abtmii{
    text-align:justify;
    margin-bottom: 3em;
-   /* font-size: 20rem; */
+   /* font-size: 20vw; */
 }
 .morein{
    text-align:justify;
