@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-.aboutus,.someth{
+
+.aboutus{
   
    width: 100%;
    display: flex;
-  
-   justify-content: center;
+   
+
+}
+.aboutus{
+   display: flex;
    align-items: center;
+   justify-content: center;
    padding-left:18vw;
    padding-right:18vw;
    padding-top: 2em;
    padding-bottom: 2em;
-}
-.aboutus{
-   display: flex;
    background-color: #0f0f0f;
    color: aliceblue;
    flex-direction: column;
@@ -41,13 +43,29 @@
    font-family: Inter,sans-serif;
 }
 
-.head{
-   text-align:justify;
-  margin-bottom: 3em;
-   font-weight: bold;
+.someth1{
+   display: flex;
+   width: 100%;
+   font-size: 1.5vw;
 }
-.content p{
+
+.head{
+   /* text-align:justify; */
+   margin-bottom: 3em;
+   font-weight: bold;
+   width: 40%;
+   margin: 8vw 0 8vw 8vw;
+}
+.content{
       font-weight: bold;
-      text-align:justify;
+      /* text-align:justify; */
       margin-bottom: 3em;
+      width: 60%;
+      margin: 8vw ;
+}
+
+.underLi{
+   text-decoration: none; 
+   padding-bottom: 15px;
+   border-bottom:3px solid #7F8487; 
 }
