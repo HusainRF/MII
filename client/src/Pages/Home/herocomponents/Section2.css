@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 .aboutus,.someth{
   
    width: 100%;
@@ -5,8 +7,8 @@
   
    justify-content: center;
    align-items: center;
-   padding-left:20vw;
-   padding-right:20vw;
+   padding-left:18vw;
+   padding-right:18vw;
    padding-top: 2em;
    padding-bottom: 2em;
 }
@@ -23,16 +25,22 @@
    flex-direction: column;
 }
 .abtmii{
-   text-align:justify;
-   margin-bottom: 3em;
-   /* font-size: 20vw; */
+   /* text-align:justify; */
+   font-family: Inter,sans-serif;
+   font-weight: 800;
+   margin-bottom: 2em;
+   font-size: 2.5vw;
+}
+.greenColor{
+   color: rgb(1, 185, 124);
 }
 .morein{
    text-align:justify;
-   font-weight: bold;
-   font-style: italic;
-   color: rgb(1, 185, 124);
+   font-size: 1.5vw;
+   font-weight: 800;
+   font-family: Inter,sans-serif;
 }
+
 .head{
    text-align:justify;
   margin-bottom: 3em;

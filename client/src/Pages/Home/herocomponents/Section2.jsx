@@ -5,10 +5,11 @@ export default function Section2() {
     <>
     <div className="aboutus">
       <div className="abtmii">
-      <h>MII Foundation, a Section-8 company based in India, is an incubator dedicated to supporting and nurturing innovative start-ups at Medi-Caps University in Indore. As a start-up incubator, MII Foundation provides a collaborative and inclusive environment for entrepreneurs to grow their businesses.</h>
+        MII Foundation,<br/> a Section-8 company based in India, <br/>is an incubator dedicated to supporting and nurturing innovative start-ups at Medi-Caps University in Indore. As a start-up incubator, MII Foundation provides a collaborative and inclusive environment for entrepreneurs to grow their businesses.
       </div>
-      <div className="morein">
-      At MII Foundation, we have a culture that is collaborative, inclusive, and centered around innovation and creativity. We believe in fostering a supportive environment where start-ups can come together to share ideas, knowledge, and experiences.
+      <div className="morein" >
+         At MII Foundation, we have a culture that is collaborative, inclusive, and centered around innovation and creativity. <span className="greenColor"> We believe in fostering a supportive environment where start-ups can come together to share ideas, knowledge, and experiences.<span></span>
+</span>
       </div>
     </div>
   
