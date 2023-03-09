@@ -21,6 +21,9 @@
     color: #666;
     text-decoration: dashed;
 }
+/* .list-active2, .nav-child2{
+    border: 2px solid black;
+} */
 .list-active1:hover .nav-child1, .list-active2:hover .nav-child2{
     display: block;
 }
@@ -33,10 +36,16 @@
     margin: 20px 0;
     width: 200px;
     left: 0; 
+    top: 50%;
     display: none;   
+}
+.nav-child1:hover, .nav-child2:hover{
+    display: block;
+    z-index: 1;
 }
 .nav-child-list1, .nav-child-list2{
     list-style: none;
+    padding: 10px 0;
 }
 @media only screen and (max-width: 1024px) {
     .header-bar, .item1, .nav-items{

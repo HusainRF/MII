@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@100&family=Red+Hat+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
 .herosection{
     display: flex;
     justify-content: center;
@@ -16,7 +20,7 @@
     position:absolute;
 }
 .logo1{
-    top: 0%;
+    top: 80%;
 }
 .logo{
     display: flex;
@@ -24,8 +28,15 @@
     justify-content: center;
     align-items: center;
 }
-.logo1 h1{
+.logo1 h1,.logo h1{
+    font-family: 'Inspiration', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Teko', sans-serif;
+font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+    font-size: 2em;
+
 }
 .logo h1{
     
