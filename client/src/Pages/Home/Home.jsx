@@ -9,16 +9,17 @@ import Advisors from './herocomponents/Advisors'
 import Testimonials from './Testimonials'
 import Diamond from './herocomponents/Diamond/Diamond.jsx'
 import Sponsors from './Sponsors'
+import AnimationSection from './Animation/AnimationSection'
 export default function Home() {
   return (
     <div st>
       <Herosection/>
       <Section2/>
       {/* <Section3/> */}
-      <Sectionfinal/>
+      {/* <Sectionfinal/> */}
       {/* <OurTeam/> */}
       {/* <OurAdvisor/> */}
-      
+      <AnimationSection/>
     {/* <Advisors/> */}
       {/* <OurTeam/> */}
     {/* <Diamond/> */}
