@@ -9,6 +9,7 @@ import Advisors from './herocomponents/Advisors'
 import Testimonials from './Testimonials'
 import Diamond from './herocomponents/Diamond/Diamond.jsx'
 import Sponsors from './Sponsors'
+import Blog from './Blog'
 export default function Home() {
   return (
     <div st>
@@ -24,6 +25,7 @@ export default function Home() {
     {/* <Diamond/> */}
     <Sponsors/>
       <Testimonials/>
+      {/* <Blog/> */}
     </div>
   )
 }
