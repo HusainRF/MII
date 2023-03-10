@@ -13,7 +13,7 @@ export default function Section2() {
       </div>
     </div>
 
-      <div className="someth1">
+      <div className="someth1" >
         <div className="head">
           Discover your passion and kickstart your business journey
         </div>

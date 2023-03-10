@@ -45,7 +45,9 @@
 
 .someth1{
    display: flex;
-   width: 100%;
+   flex-wrap: wrap;
+   width: 90%;
+   margin: 40px;
    font-size: 1.5vw;
 }
 
@@ -53,14 +55,14 @@
    /* text-align:justify; */
    margin-bottom: 3em;
    font-weight: bold;
-   width: 40%;
+   width: 30%;
    margin: 8vw 0 8vw 8vw;
 }
 .content{
       font-weight: bold;
       /* text-align:justify; */
       margin-bottom: 3em;
-      width: 60%;
+      width: 40%;
       margin: 8vw ;
 }
 

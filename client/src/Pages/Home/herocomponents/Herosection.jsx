@@ -9,7 +9,7 @@ export default function Herosection() {
         <div className="logo">
         <h1>About</h1>
         <h1>US</h1>
-        </div>
+        </div> 
         <video  id="vid" preload="auto" autoPlay loop muted playsInline>
           <source src="./images/1.mp4" type="video/mp4" />
         </video>
