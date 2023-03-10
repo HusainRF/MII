@@ -14,7 +14,9 @@ export default function Advisors() {
 
         <div className="zl-staff-items" >
         <SingleAdvisor img={"https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"} name={"Amol Nitave"} designation={"Cheif Advisor"} about={"About Mr Amol Nitave"}/>
+         <hr />
           <SingleAdvisor img={"https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"} name={"GK Sharma"} designation={"Cheif Advisor"} about={"About Mr GK Sharma"}/>
+         <hr />
           <SingleAdvisor img={"https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"} name={"Ram Bansal "} designation={"Cheif Advisor"} about={"About Mr Ram Bansal"}/>
         </div>
          </div>
